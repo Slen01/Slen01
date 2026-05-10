@@ -166,7 +166,7 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 - **LeetCode**: Solved 300+ Problems | Profile: [madhura_meenatchi](https://leetcode.com/u/madhura_meenatchi/)
 - **CodeChef**: Solved 300+ Problems | Profile: [meena_0109](https://www.codechef.com/users/meena_0109)
 - **TryHackMe**: Active CTF Participant | Profile: [trustyourconfide](https://tryhackme.com/p/trustyourconfide)
-- **OverTheWire**: Reached Level 16 in CTF Challenges
+- **OverTheWire**: Reached Level 16 in CTF Challenges.
 
 ### 🌍 **Global Engagement**
 - **Student Immersion Programme 2025** – Universiti Teknologi Petronas, Malaysia (Feb-Mar 2025)
