@@ -138,11 +138,9 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 ---
 
 ## 🐍 Contribution Activity
-
 <div align="center">
-  <img src="https://github.com/Slen01/Slen01/raw/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph" />
+  <img src="https://github.com/Slen01/Slen01/raw/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph" width="100%">
 </div>
-
 ---
 
 ## 🎯 Achievements & Awards
