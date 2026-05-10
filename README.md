@@ -139,7 +139,7 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 
 ## 🐍 Contribution Activity
 <div align="center">
-  <img src="https://github.com/Slen01/Slen01/raw/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph" width="100%">
+  <img src=https://raw.githubusercontent.com/Slen01/Slen01/output/github-contribution-grid-snake.svg>
 </div>
 ---
 
