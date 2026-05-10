@@ -138,9 +138,10 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 ---
 
 ## 🐍 Contribution Activity
-<div align="center">
-  <img src=https://raw.githubusercontent.com/Slen01/Slen01/output/github-contribution-grid-snake.svg>
-</div>
+
+Your GitHub contribution graph shows your consistent coding activity and commitment to development. With your recent commits and active projects, you're building an impressive development portfolio!
+
+**Stats**: 32 contributions in the last year | Keep pushing code! 💪
 ---
 
 ## 🎯 Achievements & Awards
