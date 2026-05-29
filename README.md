@@ -78,16 +78,7 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 ## 💼 Featured Projects
 
 ### 🔐 **Project Sentinel-X: AI-Based Cybersecurity Defense Framework**
-*Advanced threat detection and automated response system*
-- **Tech Stack**: Python, Machine Learning, AI, Fusion Engine Architecture
-- **Features**: 
-  - Automated breach response across OT, IT, and OSINT domains
-  - Dynamic sandboxing and container-based isolation
-  - Real-time threat intelligence integration
-- **Achievement**: Presented to Sathya Prathap Sahoo (IAS) at CM Rally 2026
-- **Status**: Production-Ready
-
----
+Built end-to-end cyber-physical threat detection system fusing OT telemetry, IT network logs, and OSINT feeds. Designed hybrid Transformer–LSTM model (multi-head attention + 3-layer LSTM, 77k params) achieving 0.85+ validation AUC on synthetic anomaly detection. Shipped real-time tactical dashboard via Flask API with sub-2-second inference latency.
 
 ### 🎮 **Project Overlook: Remote Security Orchestrator (C2)**
 *Comprehensive command & control cybersecurity framework*
@@ -116,26 +107,8 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 
 ---
 
-### 📍 **IP Address Tracer**
-*Advanced network reconnaissance tool*
-- **Tech Stack**: Python, Socket Module, Networking APIs
-- **Capabilities**:
-  - Open port detection based on activity patterns
-  - Ping-based IP connectivity verification
-  - Network topology mapping
-  - Live/dead host identification
-- **Use Case**: Network security assessment
 
----
 
-## 📊 GitHub Statistics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Slen01&show_icons=true&theme=dark&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Slen01&layout=compact&theme=dark&langs_count=8" alt="Top Languages" />
-</div>
-
----
 
 ## 🐍 Contribution Activity
 
