@@ -34,8 +34,6 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 
 ### 💻 Programming Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-07405B?style=for-the-badge&logo=postgresql&logoColor=white)
 
@@ -77,8 +75,159 @@ I'm a passionate **Cybersecurity Engineering student** at **Chennai Institute of
 
 ## 💼 Featured Projects
 
-### 🔐 **Project Sentinel-X: AI-Based Cybersecurity Defense Framework**
-Built end-to-end cyber-physical threat detection system fusing OT telemetry, IT network logs, and OSINT feeds. Designed hybrid Transformer–LSTM model (multi-head attention + 3-layer LSTM, 77k params) achieving 0.85+ validation AUC on synthetic anomaly detection. Shipped real-time tactical dashboard via Flask API with sub-2-second inference latency.
+# 🛡️ Sentinel-X: Predictive Cyber-Physical Threat Detection Framework
+
+> An AI-powered defense intelligence system that fuses OT telemetry, IT network logs, and OSINT threat feeds into a unified real-time tactical dashboard — forecasting anomalies before they escalate into incidents.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Air%20Defense%20Infrastructure-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Model-Transformer%20%2B%20LSTM-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python" />
+</p>
+
+---
+
+## 📌 The Problem
+
+Modern air defense infrastructure is monitored through **5+ separate, disconnected tools** — radar telemetry, firewall logs, IDS alerts, RF monitors, and OSINT feeds. Security administrators must manually cross-reference all of these in real time.
+
+This fragmented approach means:
+- ❌ Critical threat signals are missed across data silos
+- ❌ Incident detection is reactive, not predictive
+- ❌ No unified situational awareness for administrators
+- ❌ Human error risk is high under operational pressure
+
+---
+
+## 💡 The Solution — Sentinel-X
+
+Sentinel-X solves this by **fusing all three data domains into a single time-synchronized intelligence matrix**, then applying a hybrid deep learning model to **predict threats before they become incidents.**
+
+```
+OT Telemetry          ┐
+(Radar, RF, Latency)  │
+                      ├──► Time-Sync Matrix ──► Transformer-LSTM ──► Tactical Dashboard
+IT Network Logs       │
+(Firewall, IDS, Comms)│
+                      │
+OSINT Threat Intel    ┘
+```
+
+---
+
+## 🧠 Architecture
+
+### 1. Data Fusion Engine
+Three independent data streams are ingested and time-synchronized:
+
+| Stream | Source | Data Type |
+|--------|--------|-----------|
+| **OT Telemetry** | Radar systems, RF sensors, latency monitors | Operational metrics |
+| **IT Network Logs** | Firewall, IDS, communications | Security events |
+| **OSINT Intelligence** | Threat feeds, CVE databases, actor profiles | Contextual threat data |
+
+### 2. Hybrid Transformer-LSTM Model
+- **Transformer layers** — capture long-range dependencies and global threat context
+- **LSTM layers** — model temporal sequences and time-series anomalies
+- **Fusion scoring** — combines all three stream anomaly scores into a single **Fused Confidence Score (FCS)**
+
+### 3. Live Tactical Dashboard
+- Single pane of glass for defense administrators
+- Real-time threat score visualization
+- Predictive anomaly alerts before escalation
+- Replaces manual cross-referencing of 5+ tools
+
+---
+
+## ✨ Key Features
+
+- ✅ **Predictive Detection** — Forecasts anomalies before they become incidents
+- ✅ **Triple-Domain Fusion** — OT + IT + OSINT unified intelligence
+- ✅ **Hybrid Deep Learning** — Transformer + LSTM architecture
+- ✅ **Time-Synchronized Matrix** — All streams aligned to single timeline
+- ✅ **Live Tactical Dashboard** — Real-time situational awareness
+- ✅ **Air Defense Optimized** — Designed for radar/RF/defense infrastructure
+- ✅ **Fused Confidence Score (FCS)** — Single unified threat metric
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|-----------|-----------|
+| Core Language | Python 3 |
+| Deep Learning | PyTorch / TensorFlow |
+| Sequence Modeling | LSTM, Transformer |
+| Data Processing | Pandas, NumPy |
+| Anomaly Detection | Isolation Forest |
+| NLP / OSINT | BERT |
+| Dashboard | Flask, REST API |
+| Visualization | Plotly / Matplotlib |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+```bash
+Python 3.8+
+pip install torch tensorflow pandas numpy flask scikit-learn transformers
+```
+
+### Installation
+```bash
+git clone https://github.com/Slen01/Sentinel-X.git
+cd Sentinel-X
+pip install -r requirements.txt
+```
+
+### Run
+```bash
+python sentinel_x.py
+```
+
+---
+
+## 🏆 Achievements
+
+- 🎖️ **Presented to Sathya Prathap Sahoo (IAS)** at CM Rally 2026
+- 🥇 **All India Idea & Innovation 2025** — 4th Place among 17 NCC Directorates
+- 🎤 **Showcased at STARTUP EXPO 2025**, Vijayawada
+- 📜 **Research basis** — "Security Evaluation of Web Applications Through Vulnerability Scanning and Penetration Testing" — ICATEM 2025
+
+---
+
+## 🎯 Use Cases
+
+- Air defense infrastructure monitoring
+- Cyber-physical system threat detection
+- Defense SOC situational awareness
+- Military-grade anomaly prediction
+- Multi-domain threat intelligence fusion
+
+---
+
+## 🔬 Research Background
+
+Sentinel-X is built on the intersection of:
+- **Cyber-Physical Systems (CPS) Security** — protecting OT/IT convergence zones
+- **Predictive Threat Intelligence** — forecasting attacks before execution
+- **Defense AI** — applying deep learning to national security infrastructure
+- **OSINT Fusion** — integrating open-source intelligence with live telemetry
+
+---
+
+## 🗺️ Roadmap
+
+- [x] OT/IT/OSINT data fusion engine
+- [x] Transformer-LSTM hybrid model
+- [x] Live tactical dashboard
+- [x] Fused Confidence Score (FCS)
+- [ ] Federated learning for distributed defense nodes
+- [ ] Encrypted model inference for classified environments
+- [ ] Integration with DRDO air defense testbeds
+
 
 ### 🎮 **Project Overlook: Remote Security Orchestrator (C2)**
 *Comprehensive command & control cybersecurity framework*
@@ -106,6 +255,44 @@ Built end-to-end cyber-physical threat detection system fusing OT telemetry, IT 
 - **Application**: Social network fraud prevention
 
 ---
+
+### 🛡️ **SOC Log Analyser**
+*Real-time authentication log analysis and threat detection*
+- **Tech Stack**: Python, Regex, Log Parsing
+- **Features**: Brute force detection, sudo monitoring, failed login tracking
+- **GitHub**: [View Project](https://github.com/Slen01/soc-log-analyser)
+
+---
+
+### 🔐 **Brute Force Attack Detector**
+*Automated detection and blocking of SSH brute force attacks*
+- **Tech Stack**: Python, JSON, Log Analysis
+- **Features**: IP blocking, threshold alerts, persistent blocked IP storage
+- **GitHub**: [View Project](https://github.com/Slen01/brute-force-detector)
+
+---
+
+### 🎣 **Phishing URL Detector**
+*Heuristic-based URL risk scoring system (0-100)*
+- **Tech Stack**: Python, urllib, Pattern Matching
+- **Features**: Brand squatting detection, TLD analysis, risk scoring
+- **GitHub**: [View Project](https://github.com/Slen01/phishing-url-detector)
+
+---
+
+### 🌍 **IP Geolocation Tracker**
+*SOC threat attribution tool for IP geographic tracking*
+- **Tech Stack**: Python, ipinfo.io API, JSON
+- **Features**: Country mapping, threat intel matching, JSON reports
+- **GitHub**: [View Project](https://github.com/Slen01/ip-geolocation-tracker)
+
+---
+
+### 📊 **Threat Intelligence Dashboard**
+*Live auto-refreshing SOC terminal dashboard*
+- **Tech Stack**: Python, JSON, Collections
+- **Features**: Real-time alerts, CVE feed, severity classification
+- **GitHub**: [View Project](https://github.com/Slen01/threat-intel-dashboard)
 
 
 
